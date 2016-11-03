@@ -1,0 +1,35 @@
+Git control de versiones distribuido
+git init
+git add . : hce que git registre todos los cambios y archivos nuevos y todo listo paa hacr commit
+git commit-m "mensaje sobre el cambio", git commit es el comando que genera una nueva version, a la ultima versio se e dice "HEAD
+GITHUB : permite crear repositorios que tendran siempre una copia de nuestro codigo y podremos aceder mediante git
+*vincular git con github con el comando remote
+	git remote add [nombre][remote-url]
+		donde nombre = origin; remote-url= es la ruta del repocitorio git
+*git push [nombre-remote] [branch] ejm git push origin master
+
+********PARA SUBIR PAGINA WEB*******
+Carpeta donde esta el proyecto
+guit init
+git remote add origin urlRemoto
+git checkout -b gh-pages
+git remote add origin url__remote para compartir
+git push origin master para subir
+
+git status
+git add .
+git commit -m 'initial commit'
+git push origin gh-pages
+Madays.github.com/cussi-soncco
+*************COMANDOS GITHUB************
+REPOSITORIO LOCAL
+*git init
+*Revizando los cambios: git status
+*Agregando cambios: git add octocat.txt al area stage otro ejemplo git add '*.txt'
+*Guardar cambios escalonados: git commit -m "Add cute octocat story"
+*Todos los cambios realizados: git log
+
+REPOSITORIOS REMOTOS
+*Push le dice a git donde colocar los commit: git push -u origin master
+*Pull para ver si hay cambios en el archivo en el que estamos trabajando: git pull origin master
+
