@@ -1,0 +1,33 @@
+.f1 div {
+    width: 100px;
+    height: 100px;
+    background: grey;
+    margin-bottom: 10px;
+}
+.f2 {
+    background: grey; 
+    display: inline-block;  
+    border: solid thin black;
+}
+.f2 div {
+    width: 100px;
+    height: 100px;
+    background: grey;
+    display: inline-block;
+    margin: 10px;
+    border: solid thin black;    
+}
+.f3 div {
+    width: 100px;
+    height: 100px;
+    background: grey;
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.f4 div {
+    width: 100px;
+    height: 100px;
+    background: grey;    
+}
+
