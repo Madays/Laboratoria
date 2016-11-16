@@ -1,0 +1,7 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+<script src="bootstrap-3.3.7-dist/js/jquery.js"></script>   
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+examen 13 https://docs.google.com/forms/d/e/1FAIpQLSd4B168dDrAi1dtpgKXAjTze4LA1m6cMGVV5uWc64GB5dD-9A/viewscore?viewscore=AE0zAgAa95MuzrEvnJ8lBwaJ_JMm9MGD_ikLSppKTT8siMs6-YC1HeaF23w
