@@ -25,7 +25,7 @@ header li{
 section.banner{
     background-image: url("https://s-media-cache-ak0.pinimg.com/originals/7e/ac/21/7eac217b7b1c55ab7fd56758e4e181be.jpg");
     height: 500px;
-    overflow: hidden;
+    overflow: hidden;    
 }
 .box_logo{
     width: 100%;
@@ -46,8 +46,14 @@ section.banner p{
 }
 /*-------END----Section banner*/
 /*-----------Section about Me*/
+section.aboutMe{
+    background-image: url("http://hd-walls.com/wp-content/uploads/2016/02/25/21/wallpapers-presentation-now-give-your-powerpoint-presentation-a.jpg");
+    height: 350px;
+    background-repeat: no-repeat;
+
+}
 section.aboutMe h4{
-    color: #699FD1;
+    color: #fff;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-size: 25px;
@@ -59,6 +65,8 @@ section.aboutMe h4{
 section.aboutMe img{
     width: 50%; 
     margin: 0 auto;
+    border: solid 3px #333;
+    padding: 2px;
 }
 section.aboutMe p{
     width: 100%;    
@@ -66,34 +74,47 @@ section.aboutMe p{
     font-size: 20px;
     padding: 10px 0;
     text-align: justify;
+    color: #fff;
 }
 /*-------END----Section about Me*/
 /*-----------section favorite*/
+section.favorite{
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/d3/89/83/d38983a6e4a0769fbdb3aa284590e3e2.jpg");
+    padding: 20px 0;
+}
+.favorite{
+    margin: 0;    
+}
 section.favorite h4,section.favorite p{
     text-align: center;
     padding: 10px;
     font-family: 'Quicksand', sans-serif;
-    color: #699FD1;
+    color: #fff;
 }
 section.favorite .col-md-3{
     text-align: center;
+    margin: 10px 0;
 }
 section.favorite img{
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     margin: 0 auto;
+    border: solid #fff 3px;
+    padding: 2px;
 }
 /*-------END----section favorite*/
 /*-------END----section footer*/
 footer{
-    background: #eee; 
-    margin-top: 40px;
+    margin: 0;
+    background-image: url("http://andy.moonbase.net/wp-content/uploads/2013/01/cloudChamberWP_am.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
 }
 footer h6{
-    color: #699FD1;
+    color: #fff;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     margin: 20px;
 }
 footer ul{
@@ -107,7 +128,7 @@ footer li{
     
 }
 footer li a{
-    color: #000;
+    color: #fff;
     font-size: 60px;
 }
 /*-------END----section footer*/
