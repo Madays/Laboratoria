@@ -1,3 +1,14 @@
+mdia queris
+autoestima:
+1 autoconcepto
+2 autoimagen 
+3 autorefuerzo: autoelogias, premiarse, darte gustos
+4 autoeficacia la confianza en mi misma, que eres capaz de hacer,
+phronesisvirtual.com el arte de saber vivir walter rizo
+
+col-md-offset-2 se desplaza en 2 columnas
+
+not something we can merge
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 
