@@ -1,1 +1,113 @@
-/* Inserta tu CSS aqui */
+/*---------Section header*/
+header ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+header li{
+    padding: 10px 20px;
+}
+a{
+    text-decoration: none;        
+}
+a:hover{
+    background: rgba(105, 159, 209,.4);
+    text-decoration: none;
+    padding: 20px;
+}
+header li{
+    color: #699FD1;    
+}
+
+/*-------END----Section header*/
+/*--------------Section banner*/
+section.banner{
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/7e/ac/21/7eac217b7b1c55ab7fd56758e4e181be.jpg");
+    height: 500px;
+    overflow: hidden;
+}
+.box_logo{
+    width: 100%;
+    margin: 0 auto;
+}
+#logo{
+    width: 100px;
+    margin:30%;
+    opacity: 0.7;
+}
+
+section.banner p{
+    text-align: right;
+    color: #fff;
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Jura', sans-serif;
+}
+/*-------END----Section banner*/
+/*-----------Section about Me*/
+section.aboutMe h4{
+    color: #699FD1;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    padding: 20px;    
+}
+.col-md-4{
+    text-align: center;    
+}
+section.aboutMe img{
+    width: 50%; 
+    margin: 0 auto;
+}
+section.aboutMe p{
+    width: 100%;    
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: justify;
+}
+/*-------END----Section about Me*/
+/*-----------section favorite*/
+section.favorite h4,section.favorite p{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    color: #699FD1;
+}
+section.favorite .col-md-3{
+    text-align: center;
+}
+section.favorite img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+/*-------END----section favorite*/
+/*-------END----section footer*/
+footer{
+    background: #eee; 
+    margin-top: 40px;
+}
+footer h6{
+    color: #699FD1;
+    text-align: center;
+    font-size: 15px;
+    margin: 20px;
+}
+footer ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+footer li{
+    padding: 10px 10px;
+    
+}
+footer li a{
+    color: #000;
+    font-size: 60px;
+}
+/*-------END----section footer*/
